@@ -1,0 +1,34 @@
+button
+{
+    width:100px;
+    padding: 10px;
+    font-size: 10px;
+    background-color:rgb(29, 28, 31);
+    color:white;
+}
+p
+{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}input[type="text"]
+{
+    width: 150px;
+    margin-left: 10px;
+    background-color: rgba(43, 0, 255, 0);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+ body {
+        background-image: url('weatherimg.jpeg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+  }
+h2{
+    display: flex;
+    justify-content: center;
+}
+city{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
