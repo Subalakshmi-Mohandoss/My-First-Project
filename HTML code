@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="weatherresult.css"/>
+    <h2>ENTER YOUR CITY NAME</h2>
+</head>
+<body >
+    <background-image></background-image>
+<center><input type="text" id="city" placeholder="City"/></center><br>
+<center><button id="btn" onclick="displayresult()">Submit</button></center>
+<center><p id="output">Today's temperature is</p></center>
+    <center><p id="min">Minimum temperature</p></body></center>
+    <center><p id="max">Maximum temperature</p></center>
+    <script src="result.js"></script>
+</body>
+</html>
